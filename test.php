@@ -7,7 +7,7 @@ $servername = "jamsa02.centralus.cloudapp.azure.com:3306";
 
 $username = "Learner";
 $password = "Rasmussen";
-$dbname = "demo";
+$dbname = "demo"; 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
